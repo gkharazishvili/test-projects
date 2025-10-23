@@ -6,11 +6,11 @@ metadata:
   revisionHistoryLimit: 3
   selector:
     matchLabels:
-      app: guestbook-ui
+      app: giorgi-der-goat-fabo
   template:
     metadata:
       labels:
-        app: guestbook-ui
+        app: giorgi-der-goat-fabo
     spec:
       containers:
         - image: gcr.io/google-samples/gb-frontend:v5

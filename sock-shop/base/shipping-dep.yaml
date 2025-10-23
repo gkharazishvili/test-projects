@@ -2,7 +2,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: shipping
+  name: shipping-maik
   labels:
     name: shipping
 spec:
@@ -13,7 +13,7 @@ spec:
   template:
     metadata:
       labels:
-        name: shipping_maik
+        name: shipping
     spec:
       containers:
       - name: shipping

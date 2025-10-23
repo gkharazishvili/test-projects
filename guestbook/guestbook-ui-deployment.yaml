@@ -1,8 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: guestbook-user-interface
-spec:
+  name: giorgi-der-goat~fabo
   replicas: 11
   revisionHistoryLimit: 3
   selector:

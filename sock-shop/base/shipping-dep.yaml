@@ -13,7 +13,7 @@ spec:
   template:
     metadata:
       labels:
-        name: shipping
+        name: shipping_maik
     spec:
       containers:
       - name: shipping

@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: giorgi-der-goat-new
+  name: giorgi-der-goat
 spec:
   replicas: 1
   revisionHistoryLimit: 3

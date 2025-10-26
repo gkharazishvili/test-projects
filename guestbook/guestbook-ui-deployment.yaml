@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: giorgi-der-goat
 spec:
-  replicas: 11
+  replicas: 1
   revisionHistoryLimit: 3
   selector:
     matchLabels:

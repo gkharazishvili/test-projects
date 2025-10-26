@@ -6,7 +6,7 @@ metadata:
   labels:
     name: carts
 spec:
-  replicas: 1
+  replicas: 5
   selector:
     matchLabels:
       name: carts
@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: carts
-        image: weaveworksdemos/carts:0.4.8
+        image: weaveworksdemos/carts:latest
         env:
          - name: ZIPKIN
            value: zipkin.jaeger.svc.cluster.local

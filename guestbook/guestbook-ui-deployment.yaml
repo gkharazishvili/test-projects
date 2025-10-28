@@ -1,20 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: giorgi-der-goat
+  name: guestbook
+  namespace: guestbook
 spec:
   replicas: 1
   revisionHistoryLimit: 3
   selector:
     matchLabels:
-      app: giorgi-der-goat-fabo
+      app: guestbook-app-pod
   template:
     metadata:
       labels:
-        app: giorgi-der-goat-fabo
+        app: guestbook-app-pod
     spec:
       containers:
         - image: gcr.io/google-samples/gb-frontend:v5
-          name: giorgi-der-goat-fabo
+          name: guestbook
           ports:
             - containerPort: 80

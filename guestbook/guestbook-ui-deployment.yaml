@@ -4,7 +4,7 @@ metadata:
   name: guestbook-local
   namespace: guestbook-local
 spec:
-  replicas: 1
+  replicas: 4
   revisionHistoryLimit: 3
   selector:
     matchLabels:

@@ -6,7 +6,7 @@ metadata:
   labels:
     name: orders
 spec:
-  replicas: 5
+  replicas: 2
   selector:
     matchLabels:
       name: orders
